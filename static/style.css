@@ -1,0 +1,22 @@
+background: linear-gradient(33deg, #1be1ae, #44abff, #ff593e, #d051ff, #ff5167, #71ff51, #f3ff51, #5d51ff);
+background-size: 1600% 1600%;
+
+-webkit-animation: AnimationName 16s ease infinite;
+-moz-animation: AnimationName 16s ease infinite;
+animation: AnimationName 16s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 33%}
+    50%{background-position:100% 68%}
+    100%{background-position:0% 33%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 33%}
+    50%{background-position:100% 68%}
+    100%{background-position:0% 33%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 33%}
+    50%{background-position:100% 68%}
+    100%{background-position:0% 33%}
+}
