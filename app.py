@@ -4,7 +4,8 @@ import webbrowser
 
 app=Flask(__name__)
 
-'''@app.route('/',methods=["GET"])
+'''
+@app.route('/',methods=["GET"])
 def hello_world5():
     return render_template('index8.html',title="Multi search engines",message="↓ Select your search engine")
 
@@ -35,7 +36,9 @@ def hello_world8():
 
 @app.route('/forthpage',methods=["POST"])
 def form9():
-    return render_template('index11.html',title="Multi search engines",message="↓ search again ?") '''
+    return render_template('index11.html',title="Multi search engines",message="↓ search again ?") 
+
+'''
 
 @app.route('/',methods=["GET"])
 def hello_world9():
